@@ -1,0 +1,18 @@
+@charset "UTF-8"
+
+body{
+    }
+    #principal{
+        color: blue;
+        text-align: center;
+    }
+    h1{
+        color: rgb(26, 75, 117);
+    }
+    h2{
+color: brown;
+    }
+    .basico{
+        color: aquamarine7;
+    }
+     

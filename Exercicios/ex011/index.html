@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/Foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Vamos aprender a colocar audio em HTML</h1>
+    <audio>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav">
+    </audio>
+<p><a href="midia/musica.mp3"> Clique aqui para baixar</a></p>
+<video src="midia/pexels-emre-akyol-17923415 (1080p).mp4" width="400"  ontrols></video>
+</body>
+</html>
